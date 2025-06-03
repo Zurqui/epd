@@ -1,0 +1,295 @@
+/**
+ * EPD Admin CSS
+ *
+ * @package     EPD
+ * @subpackage  Admin CSS
+ * @copyright   Copyright (c) 2020, Mike Howard
+ * @license     http://opensource.org/licenses/gpl-2.0.php GNU Public License
+*/
+
+.epdp-hidden {
+	display: none;
+}
+.epd-mute {
+    opacity: 0.4;
+}
+a.epdp-delete {
+	color: #a00;
+}
+a.epdp-delete:hover {
+	color: #f00;
+}
+
+.epdp-expired { color: #dc3232; }
+.epdp-active { color: #46b450; }
+
+.epdp_select_chosen,
+#epdp_options input.epdp_input {
+    width: 100% !important; max-width: 300px;
+}
+
+.epdp_select_chosen label { padding-right: 3px; }
+.chosen-container-multi .chosen-choices {
+	background-image: none;
+	border-color: #dfdfdf;
+	-webkit-border-radius: 3px;
+	border-radius: 3px;
+}
+.chosen-container-multi .chosen-choices input {
+	border-color: #dfdfdf;
+	height:27px!important;
+	margin:2px;
+}
+.chosen-container .chosen-drop {
+	border-color: #aaa;
+	-webkit-box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+	box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+}
+.chosen-container .search-field {
+	float: none!important;
+}
+.chosen-container .search-field input {
+	width: 90%!important;
+}
+.chosen-container-active .chosen-choices {
+	border-color: #aaa;
+	-webkit-border-top-left-radius: 3px;
+	border-top-left-radius: 3px;
+	-webkit-border-top-right-radius: 3px;
+	border-top-right-radius: 3px;
+	-webkit-border-bottom-left-radius: 0;
+	border-bottom-left-radius: 0;
+	border-bottom-right-radius: 0;
+	-webkit-box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+	box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+/*------------------------
+ -- Settings
+------------------------*/
+a.epd-button {
+	width: 250px;
+	text-align: center;
+}
+
+/*------------------------
+ -- Post columns
+------------------------*/
+.column-shortcode	{
+	width: 230px;
+}
+.column-shortcode input {
+	width: 100%;
+}
+
+/*------------------------
+ -- Meta boxes
+ -----------------------*/
+.epdp-add-repeatable-row {
+	margin: 10px 0;
+}
+.epdp-add-repeatable-row .submit {
+	padding: 0 !important;
+}
+
+#epdp_options,
+#epdp_themes,
+#epdp_plugins,
+#epdp_notices {
+	margin-bottom: 10px;
+}
+
+#epdp_options .epd-select,
+#epdp_themes .epdp-select,
+#epdp_plugins .epdp-select	{
+	min-width: 100%;
+	max-width: 200px;
+}
+
+#epdp_options .epdp-checkbox,
+#epdp_themes .epdp-checkbox,
+#epdp_plugins .epdp-checkbox,
+#epdp_notices .epdp-checkbox {
+	text-align: center;
+}
+
+.epdp-repeatable-row-header:before,
+.epdp-repeatable-row-header:after,
+.epdp-option-row:before,
+.epdp-option-row:after,
+.epdp-theme-row:before,
+.epdp-theme-row:after,
+.epdp-plugin-row:before,
+.epdp-plugin-row:after {
+	content: '';
+	display: table;
+}
+.epdp-repeatable-row-header:after,
+.epdp-option-row:after,
+.epdp-theme-row:after,
+.epdp-plugin-row:after	{
+	clear: both;
+}
+.epdp-repeatable-row-title {
+	float: left;
+	font-weight: 600;
+}
+
+.epdp-plugin-item-reorder .epdp-plugin-file-reorder {
+	color: #e5e5e5;
+	font-family: "dashicons";
+	content: "\f545";
+	font-size: 18px;
+	font-weight: 300;
+	margin-left: 4px;
+	vertical-align: top;
+	transition: .2s color;
+}
+.epdp-plugin-item-reorder .epdp-plugin-file-reorder:hover {
+	color: #bbb;
+}
+
+.epdp-repeatable-row-header,
+.epdp-options-header,
+.epdp-themes-header,
+.epdp-plugins-header,
+.epdp-notices-header {
+	clear: both;
+	background: #f1f1f1;
+	border: 1px solid #e5e5e5;
+}
+
+.epdp-repeatable-row-actions .epdp-remove-row,
+.epdp-plugin-row .epdp-remove-row {
+	font-size: 12px;
+	width: auto;
+	cursor: pointer;
+}
+.epdp-repeatable-row-standard-fields,
+.epdp-option-row,
+.epdp-theme-row,
+.epdp-plugin-row {
+	background: #f9f9f9;
+	padding: 8px;
+	border-width: 0 1px 1px;
+	border-style: solid;
+	border-color: #e5e5e5;
+}
+
+.metabox-option-label,
+.epdp-repeatable-row-setting-label {
+	display: block;
+	margin-bottom: 4px;
+}
+
+.epdp-side-option-row:not(:first-child) {
+	margin-top: 10px;
+}
+
+.epdp-option-row .epdp-inline,
+.epdp-option-row .epdp-site-tag-line,
+.epdp-theme-row .epdp-theme-hide-menu,
+.epdp-plugin-row .epdp-plugin-actions {
+	display: inline-block;
+	vertical-align: middle;
+}
+
+
+.epdp-option-row .epdp-inline,
+.epdp-option-row .epdp-site-tag-line,
+.epdp-option-row .epdp-option-item,
+.epdp-theme-row .epdp-theme-item,
+.epdp-theme-row .epdp-theme-hide-menu,
+.epdp-plugin-row .epdp-plugin-item-reorder,
+.epdp-plugin-row .epdp-plugin-item,
+.epdp-plugin-row .epdp-plugin-actions {
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.epdp-option-row .epdp-inline.epdp-hidden    {
+    display: none;
+}
+
+.epdp-plugin-row .epdp-plugin-item-reorder {
+	min-width: 30px;
+	margin-right: 8px;
+}
+.epdp-plugin-row .epdp-plugin-item-reorder .epdp-plugin-reorder {
+	font-size: 20px;
+	font-weight: 300;
+	padding: 16px 4px 0;
+	cursor: move;
+}
+.epdp-option-row .epdp-option-item,
+.epdp-theme-row .epdp-theme-item,
+.epdp-plugin-row .epdp-plugin-item {
+	width: 40%;
+	margin-right: 3%;
+}
+#epdp-welcome-editor .epdp-option-row .epdp-option-item	{
+	width: 100%;
+}
+.epdp-plugin-row .epdp-plugin-actions {
+	float: right;
+}
+
+.epdp_repeatable_option_wrapper .epdp-select,
+.epdp_repeatable_theme_wrapper .epdp-select,
+.epdp_repeatable_plugin_wrapper .epdp-select {
+	min-width: 100%;
+}
+
+.epdp-options-header,
+.epdp-themes-header,
+.epdp-plugins-header,
+.epdp-notices-header {
+	font-weight: 600;
+	padding: 8px;
+}
+
+.epdp_repeatable_option_wrapper .epdp-select,
+.epdp_repeatable_theme_wrapper .epdp-select,
+.epdp_repeatable_plugin_wrapper .epdp-select,
+#epdp_plugins .epdp-select {
+	min-width: 100%;
+	max-width: 200px;
+}
+.epdp_repeatable_option_wrapper td,
+.epdp_repeatable_theme_wrapper td,
+.epdp_repeatable_plugin_wrapper td {
+	overflow: visible;
+}
+
+.epdp-theme-row .epdp-theme-selected {
+	width: 23%;
+	margin-right: 3%;
+}
+
+@media screen and ( max-width: 480px ) {
+	.epdp-option-row,
+    .epdp-theme-row,
+	.epdp-plugin-row {
+		float: none;
+		text-align: left;
+		width: 100% !important;
+		margin: 10px 0;
+	}
+	.epdp-plugin-row .epdp-plugin-row-actions {
+		float: none;
+	}
+	.epdp-plugin-row-row .epdp-plugin-row-item-reorder .epdp-plugin-row-reorder {
+		padding: 0;
+	}
+    .epdp-plugin-row .epdp-plugin-actions {
+		float: none;
+	}
+
+    .epdp-theme-row .epdp-theme-hide-menu    {
+		float: none;
+		text-align: left;
+		width: 100% !important;
+		margin: 10px 0;
+	}
+
+}
