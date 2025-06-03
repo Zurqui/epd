@@ -1,0 +1,1201 @@
+# Copyright (C) 2021 Mike Howard <mike@mikesplugins.co.uk>
+# This file is distributed under the same license as the Easy Plugin Demo - Premium Pack package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Easy Plugin Demo - Premium Pack 1.5.1\n"
+"Report-Msgid-Bugs-To: https://kb-support.com/\n"
+"POT-Creation-Date: 2021-01-14 22:43:03+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2021-MO-DA HO:MI+ZONE\n"
+"Last-Translator: WP-Translations (http://wp-translations.org/)\n"
+"Language-Team: WP-Translations <wpt@wp-translations.org>\n"
+"X-Generator: grunt-wp-i18n 0.5.4\n"
+"X-Poedit-KeywordsList: "
+"__;_e;_x:1,2c;_ex:1,2c;_n:1,2;_nx:1,2,4c;_n_noop:1,2;_nx_noop:1,2,3c;esc_"
+"attr__;esc_html__;esc_attr_e;esc_html_e;esc_attr_x:1,2c;esc_html_x:1,2c;\n"
+"Language: en_US\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-Country: United States\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-Basepath: ../\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-Bookmarks: \n"
+"X-Textdomain-Support: yes\n"
+
+#: epd-premium.php:183
+msgid ""
+"Easy Plugin Demo - %s requires that Easy Plugin Demo must be installed and "
+"activated."
+msgstr ""
+
+#: epd-premium.php:188
+msgid ""
+"Easy Plugin Demo - %1$s requires Easy Plugin Demo version %s and higher. "
+"%1$s features will be disabled until Easy Plugin Demo is updated."
+msgstr ""
+
+#: epd-premium.php:211
+msgid "Expiry date updated for demo site."
+msgstr ""
+
+#: epd-premium.php:217
+msgid "Expiry date could not be updated for demo site."
+msgstr ""
+
+#: epd-premium.php:223
+msgid "Notice updated."
+msgstr ""
+
+#: epd-premium.php:229
+msgid "Notice added."
+msgstr ""
+
+#: epd-premium.php:235
+msgid "Notice deleted."
+msgstr ""
+
+#: epd-premium.php:241
+msgid "Zapier test data sent. Return to Zapier to complete your test."
+msgstr ""
+
+#: epd-premium.php:323
+msgid "Easy Plugin Demo must be installed and activated!"
+msgstr ""
+
+#: epd-premium.php:346 includes/admin/settings-functions.php:108
+msgid "Launch Demo"
+msgstr ""
+
+#: epd-premium.php:349
+#: includes/integrations/mailchimp/class-epdp-mailchimp-integration.php:134
+#: includes/integrations/mailchimp/mailchimp-functions.php:48
+msgid "Signup for the newsletter"
+msgstr ""
+
+#: includes/EDD_SL_Plugin_Updater.php:250
+msgid "There is a new version of %1$s available. %2$sView version %3$s details%4$s."
+msgstr ""
+
+#: includes/EDD_SL_Plugin_Updater.php:258
+msgid ""
+"There is a new version of %1$s available. %2$sView version %3$s details%4$s "
+"or %5$supdate now%6$s."
+msgstr ""
+
+#: includes/EDD_SL_Plugin_Updater.php:502
+msgid "You do not have permission to install plugin updates"
+msgstr ""
+
+#: includes/EDD_SL_Plugin_Updater.php:502
+#: includes/class-epd-license-handler.php:312
+#: includes/features/notices/notices-actions.php:33
+#: includes/features/notices/notices-actions.php:37
+#: includes/features/notices/notices-actions.php:105
+#: includes/features/notices/notices-actions.php:115
+#: includes/integrations/zapier/class-epdp-zapier-api.php:257
+msgid "Error"
+msgstr ""
+
+#: includes/admin/admin-pages.php:23
+msgid "EPD Demo Settings"
+msgstr ""
+
+#: includes/admin/admin-pages.php:48 includes/admin/admin-pages.php:49
+msgid "EPD Edit Site"
+msgstr ""
+
+#: includes/admin/admin-pages.php:88
+msgid "The requested site does not exist."
+msgstr ""
+
+#: includes/admin/admin-pages.php:92
+msgid "Sorry, you are not allowed to access this page."
+msgstr ""
+
+#: includes/admin/admin-pages.php:99
+msgid "Edit Site: %s"
+msgstr ""
+
+#: includes/admin/admin-pages.php:102
+msgid ""
+"The primary site and sites defined as clone masters cannot have their "
+"expiry dates changed."
+msgstr ""
+
+#: includes/admin/admin-pages.php:105
+msgid ""
+"%s is currently set to expire on %s. If you want to edit the expiry date, "
+"you can use the form below."
+msgstr ""
+
+#: includes/admin/admin-pages.php:111
+msgid ""
+"%s is currently set to never expire. If you want to set an expiry date, you "
+"can use the form below. Enter the date in the format <code>YYYY-dd-mm "
+"H:i:s</code>. i.e. %s"
+msgstr ""
+
+#: includes/admin/admin-pages.php:120
+msgid "Visit"
+msgstr ""
+
+#: includes/admin/admin-pages.php:120
+msgid "Dashboard"
+msgstr ""
+
+#: includes/admin/admin-pages.php:139
+msgid "New Expiry Date:"
+msgstr ""
+
+#: includes/admin/admin-pages.php:143
+msgid "Enter 0 to never expire."
+msgstr ""
+
+#: includes/admin/admin-pages.php:146
+msgid "Edit Demo Site"
+msgstr ""
+
+#: includes/admin/features/features-settings.php:32
+#: includes/admin/features/features-settings.php:33
+#: includes/admin/features/features-settings.php:65
+#: includes/admin/features/features-settings.php:104
+#: includes/admin/posts/meta-boxes.php:97
+msgid "Notices"
+msgstr ""
+
+#: includes/admin/features/features-settings.php:50
+msgid "Premium Features"
+msgstr ""
+
+#: includes/admin/features/features-settings.php:64
+#: includes/admin/features/features-settings.php:82
+msgid "REST API"
+msgstr ""
+
+#: includes/admin/features/features-settings.php:87
+msgid "Enable Remote Registration"
+msgstr ""
+
+#: includes/admin/features/features-settings.php:90
+msgid ""
+"Select this option to enable demo site creation via a remote website using "
+"the EPD Remote extension."
+msgstr ""
+
+#: includes/admin/features/features-settings.php:94
+msgid "EPD Remote Secret Key"
+msgstr ""
+
+#: includes/admin/features/features-settings.php:97
+msgid "Enter the secret key which was generated via the EPD Remote plugin."
+msgstr ""
+
+#: includes/admin/features/features-settings.php:133
+msgid "REST API Secret Key"
+msgstr ""
+
+#: includes/admin/features/features-settings.php:139 includes/scripts.php:125
+msgid "Reveal Secret Key"
+msgstr ""
+
+#: includes/admin/features/features-settings.php:141 includes/scripts.php:129
+msgid ""
+"Copy this phrase into the site where you have the EPD Remote plugin "
+"installed to enable demo site creation via the REST API."
+msgstr ""
+
+#: includes/admin/features/features-settings.php:146
+msgid "Generate New Key"
+msgstr ""
+
+#: includes/admin/features/features-settings.php:152 includes/scripts.php:127
+msgid "Regenerate Secret Key"
+msgstr ""
+
+#: includes/admin/features/features-settings.php:154
+msgid ""
+"Click here to generate a new secret key if you believe your current key may "
+"have been compromised."
+msgstr ""
+
+#: includes/admin/features/features-settings.php:198
+msgid "Name"
+msgstr ""
+
+#: includes/admin/features/features-settings.php:199
+msgid "Status"
+msgstr ""
+
+#: includes/admin/features/features-settings.php:200
+msgid "Displays On"
+msgstr ""
+
+#: includes/admin/features/features-settings.php:201
+msgid "Runs After"
+msgstr ""
+
+#: includes/admin/features/features-settings.php:202
+msgid "Displayed"
+msgstr ""
+
+#: includes/admin/features/features-settings.php:203
+#: includes/admin/posts/meta-boxes.php:469
+msgid "Actions"
+msgstr ""
+
+#: includes/admin/features/features-settings.php:211
+msgid "Active"
+msgstr ""
+
+#: includes/admin/features/features-settings.php:211
+msgid "Inactive"
+msgstr ""
+
+#: includes/admin/features/features-settings.php:222
+msgid "Edit"
+msgstr ""
+
+#: includes/admin/features/features-settings.php:227
+msgid "Delete"
+msgstr ""
+
+#: includes/admin/features/features-settings.php:248
+msgid "Second"
+msgid_plural "Seconds"
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/admin/features/features-settings.php:251
+msgid "Time"
+msgid_plural "Times"
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/admin/features/features-settings.php:264
+#: includes/admin/posts/meta-boxes.php:926
+msgid "You have not defined any notices. <a href=\"%s\">Add notice</a>."
+msgstr ""
+
+#: includes/admin/features/features-settings.php:273
+#: includes/admin/features/features-settings.php:301
+msgid "Add Notice"
+msgstr ""
+
+#: includes/admin/features/features-settings.php:295
+msgid "Edit Notice"
+msgstr ""
+
+#: includes/admin/features/features-settings.php:328
+msgid "Back"
+msgstr ""
+
+#: includes/admin/features/features-settings.php:335
+msgid "Notice Name"
+msgstr ""
+
+#: includes/admin/features/features-settings.php:339
+msgid "Provide a descriptive name for this notice."
+msgstr ""
+
+#: includes/admin/features/features-settings.php:344
+msgid "Enable Notice"
+msgstr ""
+
+#: includes/admin/features/features-settings.php:352
+msgid "Display On"
+msgstr ""
+
+#: includes/admin/features/features-settings.php:366
+msgid "When to Display"
+msgstr ""
+
+#: includes/admin/features/features-settings.php:370
+msgid ""
+"Enter the number of seconds after a site has been provisioned that the "
+"notice should be displayed."
+msgstr ""
+
+#: includes/admin/features/features-settings.php:375
+msgid "Border Color"
+msgstr ""
+
+#: includes/admin/features/features-settings.php:383
+msgid "Background Color"
+msgstr ""
+
+#: includes/admin/features/features-settings.php:391
+msgid "Text Color"
+msgstr ""
+
+#: includes/admin/features/features-settings.php:399
+msgid "Notice Text"
+msgstr ""
+
+#: includes/admin/features/features-settings.php:413
+msgid "The following tags can be used:<br>%s"
+msgstr ""
+
+#: includes/admin/features/features-settings.php:427
+msgid "Save Notice"
+msgstr ""
+
+#: includes/admin/features/features-settings.php:447
+msgid "Admin and Front End"
+msgstr ""
+
+#: includes/admin/features/features-settings.php:448
+msgid "Admin Only"
+msgstr ""
+
+#: includes/admin/features/features-settings.php:449
+msgid "Front End Only"
+msgstr ""
+
+#: includes/admin/posts/demos.php:26
+msgid "Title"
+msgstr ""
+
+#: includes/admin/posts/demos.php:27
+msgid "Build Count"
+msgstr ""
+
+#: includes/admin/posts/demos.php:28
+msgid "Shortcode"
+msgstr ""
+
+#: includes/admin/posts/demos.php:29
+msgid "Author"
+msgstr ""
+
+#: includes/admin/posts/demos.php:30
+msgid "Date"
+msgstr ""
+
+#: includes/admin/posts/meta-boxes.php:63
+msgid "Demo Button"
+msgstr ""
+
+#: includes/admin/posts/meta-boxes.php:70
+msgid "Site Options"
+msgstr ""
+
+#: includes/admin/posts/meta-boxes.php:79
+#: includes/admin/settings-functions.php:25
+msgid "Cloning"
+msgstr ""
+
+#: includes/admin/posts/meta-boxes.php:88
+msgid "Themes & Plugins"
+msgstr ""
+
+#: includes/admin/posts/meta-boxes.php:212
+#: includes/integrations/easy-digital-downloads.php:251
+#: includes/integrations/woocommerce.php:251
+msgid "Placement:"
+msgstr ""
+
+#: includes/admin/posts/meta-boxes.php:241
+msgid "Enter demo site title here"
+msgstr ""
+
+#: includes/admin/posts/meta-boxes.php:243
+msgid ""
+"This will be the title of all new sites created from this template. If left "
+"empty, the name of this demo will be used."
+msgstr ""
+
+#: includes/admin/posts/meta-boxes.php:247
+msgid "Enter demo site tag line here"
+msgstr ""
+
+#: includes/admin/posts/meta-boxes.php:249
+msgid ""
+"This will be the tag line (description) for all new sites created from this "
+"template."
+msgstr ""
+
+#: includes/admin/posts/meta-boxes.php:261
+msgid "Title & Tag Line"
+msgstr ""
+
+#: includes/admin/posts/meta-boxes.php:267
+msgid "Enter a title for sites created from this demo"
+msgstr ""
+
+#: includes/admin/posts/meta-boxes.php:275
+msgid "Enter the tag line for sites created from this demo"
+msgstr ""
+
+#: includes/admin/posts/meta-boxes.php:312
+msgid "Settings"
+msgstr ""
+
+#: includes/admin/posts/meta-boxes.php:321
+msgid "Discourage search engines?"
+msgstr ""
+
+#: includes/admin/posts/meta-boxes.php:327
+msgid "Disable visibility changes?"
+msgstr ""
+
+#: includes/admin/posts/meta-boxes.php:360
+msgid "Hide default welcome panel?"
+msgstr ""
+
+#: includes/admin/posts/meta-boxes.php:366
+msgid "Add custom welcome panel?"
+msgstr ""
+
+#: includes/admin/posts/meta-boxes.php:393
+msgid "Custom welcome panel message"
+msgstr ""
+
+#: includes/admin/posts/meta-boxes.php:428
+msgid "Site upload space"
+msgstr ""
+
+#: includes/admin/posts/meta-boxes.php:455
+msgid "Show Confirmation"
+msgstr ""
+
+#: includes/admin/posts/meta-boxes.php:456
+msgid "Visit Home Page"
+msgstr ""
+
+#: includes/admin/posts/meta-boxes.php:457
+msgid "Visit Admin"
+msgstr ""
+
+#: includes/admin/posts/meta-boxes.php:458
+msgid "Redirect to Page"
+msgstr ""
+
+#: includes/admin/posts/meta-boxes.php:475
+msgid "Registration action"
+msgstr ""
+
+#: includes/admin/posts/meta-boxes.php:489
+msgid "Redirect to"
+msgstr ""
+
+#: includes/admin/posts/meta-boxes.php:531
+msgid "Log user in automatically?"
+msgstr ""
+
+#: includes/admin/posts/meta-boxes.php:556
+msgid "Delete sites after"
+msgstr ""
+
+#: includes/admin/posts/meta-boxes.php:596
+msgid "Clone Options"
+msgstr ""
+
+#: includes/admin/posts/meta-boxes.php:602
+msgid "Clone from site"
+msgstr ""
+
+#: includes/admin/posts/meta-boxes.php:616
+msgid "Plugins action"
+msgstr ""
+
+#: includes/admin/posts/meta-boxes.php:657
+msgid "Themes action"
+msgstr ""
+
+#: includes/admin/posts/meta-boxes.php:696
+msgid "Theme Options"
+msgstr ""
+
+#: includes/admin/posts/meta-boxes.php:701
+msgid "Select a theme for this demo"
+msgstr ""
+
+#: includes/admin/posts/meta-boxes.php:717
+msgid "Hide appearance menu on demo site?"
+msgstr ""
+
+#: includes/admin/posts/meta-boxes.php:750
+msgid "Select available themes"
+msgstr ""
+
+#: includes/admin/posts/meta-boxes.php:792
+msgid "Plugin Options"
+msgstr ""
+
+#: includes/admin/posts/meta-boxes.php:801
+msgid "Hide plugins menu on demo site?"
+msgstr ""
+
+#: includes/admin/posts/meta-boxes.php:812
+msgid "Activate Plugin"
+msgstr ""
+
+#: includes/admin/posts/meta-boxes.php:814
+#: includes/admin/posts/meta-boxes.php:841
+msgid "Select a Plugin"
+msgstr ""
+
+#: includes/admin/posts/meta-boxes.php:826
+#: includes/admin/posts/meta-boxes.php:852
+msgid "Remove"
+msgstr ""
+
+#: includes/admin/posts/meta-boxes.php:826
+msgid "Remove plugin"
+msgstr ""
+
+#: includes/admin/posts/meta-boxes.php:839
+msgid "Activate Plugins"
+msgstr ""
+
+#: includes/admin/posts/meta-boxes.php:852
+msgid "Remove plugin 1"
+msgstr ""
+
+#: includes/admin/posts/meta-boxes.php:861
+msgid "Activate Additional Plugin"
+msgstr ""
+
+#: includes/admin/posts/meta-boxes.php:898
+msgid "Select Active Notices"
+msgstr ""
+
+#: includes/admin/posts/sites.php:56
+msgid "Clone Master"
+msgstr ""
+
+#: includes/admin/posts/sites.php:71
+msgid "Demo Template"
+msgstr ""
+
+#: includes/admin/settings-functions.php:24
+msgid "Users"
+msgstr ""
+
+#: includes/admin/settings-functions.php:26
+msgid "Demo Templates"
+msgstr ""
+
+#: includes/admin/settings-functions.php:43
+msgid "Clone Site"
+msgstr ""
+
+#: includes/admin/settings-functions.php:47
+msgid "If you select an existing site here, all new sites will be cloned from here."
+msgstr ""
+
+#: includes/admin/settings-functions.php:52
+msgid "Clone Tables"
+msgstr ""
+
+#: includes/admin/settings-functions.php:55
+msgid "Select the tables you would like to duplicate to newly created sites."
+msgstr ""
+
+#: includes/admin/settings-functions.php:60
+msgid "Plugins Action"
+msgstr ""
+
+#: includes/admin/settings-functions.php:64
+#: includes/admin/settings-functions.php:73
+msgid "How do you want to manage plugins for the newly cloned site?"
+msgstr ""
+
+#: includes/admin/settings-functions.php:69
+msgid "Themes Action"
+msgstr ""
+
+#: includes/admin/settings-functions.php:78
+msgid "Ignore Options"
+msgstr ""
+
+#: includes/admin/settings-functions.php:80
+msgid ""
+"Enter the names of any options you do not wish to clone from the master "
+"site options database table. Names should be one per line and match the "
+"value within the <code>option_name</code> column."
+msgstr ""
+
+#: includes/admin/settings-functions.php:87
+msgid "Default Site Demo Template"
+msgstr ""
+
+#: includes/admin/settings-functions.php:90
+msgid ""
+"If you select a template here, all new registrations that are not linked "
+"from a demo URL will be based on the template."
+msgstr ""
+
+#: includes/admin/settings-functions.php:96
+msgid "Output Demo Button"
+msgstr ""
+
+#: includes/admin/settings-functions.php:99
+msgid "Choose where to place the Launch Demo button by default."
+msgstr ""
+
+#: includes/admin/settings-functions.php:105
+msgid "Button Text"
+msgstr ""
+
+#: includes/admin/settings-functions.php:107
+msgid "Text to be displayed on the button."
+msgstr ""
+
+#: includes/admin/settings-functions.php:145
+msgid "Add %s"
+msgstr ""
+
+#: includes/admin/settings-functions.php:151
+msgid ""
+"List of users to be granted the <strong>%s</strong> capability for new "
+"sites."
+msgstr ""
+
+#: includes/admin/settings-functions.php:152
+msgid "Type to search users"
+msgstr ""
+
+#: includes/admin/settings-functions.php:170
+msgid "Set Author As"
+msgstr ""
+
+#: includes/admin/settings-functions.php:174
+msgid "Who should be defined as the author for replicated content?."
+msgstr ""
+
+#: includes/admin/settings-functions.php:189
+#: includes/admin/settings-functions.php:278
+msgid "None"
+msgstr ""
+
+#: includes/admin/settings-functions.php:211
+msgid "Do not add button"
+msgstr ""
+
+#: includes/admin/settings-functions.php:212
+msgid "Before content"
+msgstr ""
+
+#: includes/admin/settings-functions.php:213
+msgid "After content"
+msgstr ""
+
+#: includes/admin/settings-functions.php:214
+msgid "Both before and after content"
+msgstr ""
+
+#: includes/admin/settings-functions.php:230
+msgid "Leave as current author"
+msgstr ""
+
+#: includes/admin/settings-functions.php:231
+msgid "Set as blog owner"
+msgstr ""
+
+#: includes/admin/settings-functions.php:346
+#: includes/admin/settings-functions.php:364
+msgid "Replicate From Clone Site"
+msgstr ""
+
+#: includes/admin/settings-functions.php:347
+msgid "Honor Enable Plugins Setting"
+msgstr ""
+
+#: includes/admin/settings-functions.php:348
+msgid "Do Nothing"
+msgstr ""
+
+#: includes/admin/settings-functions.php:365
+msgid "Honor Themes Settings"
+msgstr ""
+
+#: includes/admin/settings-functions.php:384
+msgid "Replicate All %s"
+msgstr ""
+
+#: includes/admin/settings-functions.php:388
+msgid ""
+"Select to replicate all <strong>%1$s</strong>. The <code>Replicate "
+"%1$s</code> option will be ignored if this option is enabled."
+msgstr ""
+
+#: includes/admin/settings-functions.php:420
+msgid "Include Comments?"
+msgstr ""
+
+#: includes/admin/settings-functions.php:424
+msgid "Select to include comments for the %s."
+msgstr ""
+
+#: includes/admin/settings-functions.php:434
+msgid "Include Taxonomy Terms?"
+msgstr ""
+
+#: includes/admin/settings-functions.php:437
+msgid "Select to include taxonomy terms as part of the post replication."
+msgstr ""
+
+#: includes/admin/settings-functions.php:445
+msgid "Include Media?"
+msgstr ""
+
+#: includes/admin/settings-functions.php:449
+msgid "Select to include any media attached to the %s."
+msgstr ""
+
+#: includes/class-epd-license-handler.php:170
+msgid "%1$s"
+msgstr ""
+
+#: includes/class-epd-license-handler.php:213
+msgid ""
+"Enter your <a href=\"%s\" target=\"_blank\">license keys</a> here to "
+"receive updates for extensions you have purchased. If your license key has "
+"expired, please renew your license."
+msgstr ""
+
+#: includes/class-epd-license-handler.php:312
+#: includes/features/notices/notices-actions.php:33
+#: includes/features/notices/notices-actions.php:104
+#: includes/integrations/zapier/class-epdp-zapier-api.php:256
+msgid "Nonce verification failed"
+msgstr ""
+
+#: includes/class-epd-license-handler.php:422
+msgid ""
+"You have invalid or expired license keys for Easy Plugin Demo. Please go to "
+"the <a href=\"%s\">Licenses page</a> to correct this issue."
+msgstr ""
+
+#: includes/class-epd-license-handler.php:452
+msgid "Enter a valid license key for automatic updates."
+msgstr ""
+
+#: includes/features/notices/notices-actions.php:37
+#: includes/features/notices/notices-actions.php:114
+msgid "You do not have permission to manage notices"
+msgstr ""
+
+#: includes/features/notices/notices-functions.php:116
+msgid "Notice not found"
+msgstr ""
+
+#: includes/integrations/class-epdp-integrations.php:40
+msgid "MailChimp"
+msgstr ""
+
+#: includes/integrations/class-epdp-integrations.php:41
+msgid "Zapier"
+msgstr ""
+
+#: includes/integrations/class-epdp-integrations.php:89
+msgid "Integrations"
+msgstr ""
+
+#: includes/integrations/class-epdp-integrations.php:103
+msgid "%s"
+msgstr ""
+
+#: includes/integrations/class-epdp-integrations.php:127
+msgid "Upgrade Required"
+msgstr ""
+
+#: includes/integrations/class-epdp-integrations.php:130
+msgid ""
+"%1$s requires that Easy Plugin Demo is running at version %2$s or above. "
+"Please <a href=\"%3$s\">updgrade</a> the core Easy Plugin Demo plugin. %1$s "
+"settings will then be displayed here."
+msgstr ""
+
+#: includes/integrations/easy-digital-downloads.php:197
+#: includes/integrations/woocommerce.php:197
+msgid "Easy Plugin Demo Button"
+msgstr ""
+
+#: includes/integrations/easy-digital-downloads.php:223
+#: includes/integrations/woocommerce.php:223 includes/widgets.php:102
+msgid "Demo:"
+msgstr ""
+
+#: includes/integrations/easy-digital-downloads.php:228
+#: includes/integrations/woocommerce.php:228
+msgid "Select a Demo"
+msgstr ""
+
+#: includes/integrations/easy-digital-downloads.php:243
+#: includes/integrations/woocommerce.php:243 includes/widgets.php:124
+msgid "Button Text:"
+msgstr ""
+
+#: includes/integrations/mailchimp/class-epdp-mailchimp-integration.php:55
+msgid "MailChimp Integration"
+msgstr ""
+
+#: includes/integrations/mailchimp/class-epdp-mailchimp-integration.php:117
+msgid "MailChimp API Key"
+msgstr ""
+
+#: includes/integrations/mailchimp/class-epdp-mailchimp-integration.php:120
+msgid "Enter your API Key. <a href=\"%s\" target=\"_blank\">Get your API key</a>."
+msgstr ""
+
+#: includes/integrations/mailchimp/class-epdp-mailchimp-integration.php:126
+msgid "Show Signup On Register"
+msgstr ""
+
+#: includes/integrations/mailchimp/class-epdp-mailchimp-integration.php:128
+msgid "Enable to display the signup field on the registration field."
+msgstr ""
+
+#: includes/integrations/mailchimp/class-epdp-mailchimp-integration.php:132
+msgid "Signup Label"
+msgstr ""
+
+#: includes/integrations/mailchimp/class-epdp-mailchimp-integration.php:135
+msgid "Enter a label for the newsletter signup checkbox."
+msgstr ""
+
+#: includes/integrations/mailchimp/class-epdp-mailchimp-integration.php:139
+msgid "List"
+msgstr ""
+
+#: includes/integrations/mailchimp/class-epdp-mailchimp-integration.php:141
+msgid "If your list doesn't appear, try a <a href=%s>refresh</a>."
+msgstr ""
+
+#: includes/integrations/mailchimp/class-epdp-mailchimp-integration.php:149
+msgid "Double Opt-In"
+msgstr ""
+
+#: includes/integrations/mailchimp/class-epdp-mailchimp-integration.php:151
+msgid ""
+"Enable if you would like customers to receive a verification email before "
+"being subscribed to your mailing list."
+msgstr ""
+
+#: includes/integrations/mailchimp/class-epdp-mailchimp-integration.php:168
+msgid "Not connected to MailChimp"
+msgstr ""
+
+#: includes/integrations/mailchimp/class-epdp-mailchimp-integration.php:170
+msgid "Select a List"
+msgstr ""
+
+#: includes/integrations/mailchimp/mailchimp-actions.php:149
+msgid "%s member"
+msgid_plural "%s members"
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/integrations/mailchimp/mailchimp-actions.php:153
+msgid "Connected to the <strong>%s</strong> MailChimp list. %s."
+msgstr ""
+
+#: includes/integrations/mailchimp/mailchimp-functions.php:128
+#: includes/integrations/mailchimp/mailchimp-functions.php:134
+msgid "Unable to load MailChimp lists, check your API Key."
+msgstr ""
+
+#: includes/integrations/mailchimp/mailchimp-functions.php:138
+msgid "You have not created any lists at MailChimp"
+msgstr ""
+
+#: includes/integrations/zapier/class-epdp-zapier-integration.php:66
+msgid "Zapier Integration"
+msgstr ""
+
+#: includes/integrations/zapier/class-epdp-zapier-integration.php:158
+msgid "Enable Zapier"
+msgstr ""
+
+#: includes/integrations/zapier/class-epdp-zapier-integration.php:195
+msgid "Send Demo Registered Notification"
+msgstr ""
+
+#: includes/integrations/zapier/class-epdp-zapier-integration.php:209
+msgid "Send Demo Deleted Notification"
+msgstr ""
+
+#: includes/integrations/zapier/class-epdp-zapier-integration.php:223
+msgid "Send Demo Reset Notification"
+msgstr ""
+
+#: includes/integrations/zapier/zapier-actions.php:31
+#: includes/integrations/zapier/zapier-actions.php:77
+#: includes/integrations/zapier/zapier-actions.php:124
+msgid "Never"
+msgstr ""
+
+#: includes/posts/post-types.php:63
+msgid "Add New"
+msgstr ""
+
+#: includes/posts/post-types.php:64
+msgid "Add New %1$s"
+msgstr ""
+
+#: includes/posts/post-types.php:65
+msgid "Edit %1$s"
+msgstr ""
+
+#: includes/posts/post-types.php:66
+msgid "New %1$s"
+msgstr ""
+
+#: includes/posts/post-types.php:67
+msgid "%2$s"
+msgstr ""
+
+#: includes/posts/post-types.php:68
+msgid "View %1$s"
+msgstr ""
+
+#: includes/posts/post-types.php:69
+msgid "Search %2$s"
+msgstr ""
+
+#: includes/posts/post-types.php:70
+msgid "No %2$s found"
+msgstr ""
+
+#: includes/posts/post-types.php:71
+msgid "No %2$s found in Trash"
+msgstr ""
+
+#: includes/posts/post-types.php:74
+msgid "%1$s Image"
+msgstr ""
+
+#: includes/posts/post-types.php:75
+msgid "Set %1$s Image"
+msgstr ""
+
+#: includes/posts/post-types.php:76
+msgid "Remove %1$s Image"
+msgstr ""
+
+#: includes/posts/post-types.php:77
+msgid "Use as %1$s Image"
+msgstr ""
+
+#: includes/posts/post-types.php:78
+msgid "%1$s Attributes"
+msgstr ""
+
+#: includes/posts/post-types.php:79
+msgid "Filter %2$s list"
+msgstr ""
+
+#: includes/posts/post-types.php:80
+msgid "%2$s list navigation"
+msgstr ""
+
+#: includes/posts/post-types.php:81
+msgid "%2$s list"
+msgstr ""
+
+#: includes/posts/post-types.php:116
+msgid "Demo"
+msgstr ""
+
+#: includes/posts/post-types.php:117
+msgid "Demos"
+msgstr ""
+
+#: includes/posts/post-types.php:161
+msgid "Enter %s name here"
+msgstr ""
+
+#: includes/posts/post-types.php:181
+msgid "Search %s Categories"
+msgstr ""
+
+#: includes/posts/post-types.php:182
+msgid "All %s Categories"
+msgstr ""
+
+#: includes/posts/post-types.php:183
+msgid "Parent %s Category"
+msgstr ""
+
+#: includes/posts/post-types.php:184
+msgid "Parent %s Category:"
+msgstr ""
+
+#: includes/posts/post-types.php:185
+msgid "Edit %s Category"
+msgstr ""
+
+#: includes/posts/post-types.php:186
+msgid "Update %s Category"
+msgstr ""
+
+#: includes/posts/post-types.php:187
+msgid "Add New %s Category"
+msgstr ""
+
+#: includes/posts/post-types.php:188
+msgid "New %s Category Name"
+msgstr ""
+
+#: includes/posts/post-types.php:189
+msgid "Categories"
+msgstr ""
+
+#: includes/posts/post-types.php:207
+msgid "Search %s Tags"
+msgstr ""
+
+#: includes/posts/post-types.php:208
+msgid "All %s Tags"
+msgstr ""
+
+#: includes/posts/post-types.php:209
+msgid "Parent %s Tag"
+msgstr ""
+
+#: includes/posts/post-types.php:210
+msgid "Parent %s Tag:"
+msgstr ""
+
+#: includes/posts/post-types.php:211
+msgid "Edit %s Tag"
+msgstr ""
+
+#: includes/posts/post-types.php:212
+msgid "Update %s Tag"
+msgstr ""
+
+#: includes/posts/post-types.php:213
+msgid "Add New %s Tag"
+msgstr ""
+
+#: includes/posts/post-types.php:214
+msgid "New %s Tag Name"
+msgstr ""
+
+#: includes/posts/post-types.php:215
+msgid "Tags"
+msgstr ""
+
+#: includes/posts/post-types.php:216
+msgid "Choose from most used %s tags"
+msgstr ""
+
+#: includes/rest/class-epdp-api.php:156
+msgid "Demo reference."
+msgstr ""
+
+#: includes/rest/class-epdp-api.php:162
+msgid "Build count."
+msgstr ""
+
+#: includes/rest/class-epdp-api.php:188
+msgid "Sorry, you are not allowed to edit posts in this post type."
+msgstr ""
+
+#: includes/rest/class-epdp-api.php:239
+msgid "Unable to create site."
+msgstr ""
+
+#: includes/rest/class-epdp-api.php:385
+msgid "Required fields missing."
+msgstr ""
+
+#: includes/rest/class-epdp-api.php:401
+msgid "Invalid email address."
+msgstr ""
+
+#: includes/rest/class-epdp-api.php:410
+msgid "User site count exceeded."
+msgstr ""
+
+#: includes/rest/class-epdp-api.php:427
+msgid "Requested demo not found."
+msgstr ""
+
+#: includes/scripts.php:126
+msgid "Please wait..."
+msgstr ""
+
+#: includes/scripts.php:128
+msgid "Done!"
+msgstr ""
+
+#: includes/sites/class-epdp-site.php:152
+msgid "Can't get property %s"
+msgstr ""
+
+#: includes/widgets.php:39
+msgid "EPD Demo Button"
+msgstr ""
+
+#: includes/widgets.php:40
+msgid "Output a demo button"
+msgstr ""
+
+#: includes/widgets.php:97
+msgid "Title:"
+msgstr ""
+
+#: templates/buttons/demo-button.php:30
+msgid "No demo found"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "Easy Plugin Demo - Premium Pack"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "https://easy-plugin-demo.com/downloads/premium-pack/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "Extends the Easy plugin Demo plugin adding advanced features."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Mike Howard <mike@mikesplugins.co.uk>"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://mikesplugins.co.uk"
+msgstr ""
+
+#: includes/posts/post-types.php:61
+msgctxt "demo post type name"
+msgid "%2$s"
+msgstr ""
+
+#: includes/posts/post-types.php:62
+msgctxt "singular demo post type name"
+msgid "%1$s"
+msgstr ""
+
+#: includes/posts/post-types.php:73
+msgctxt "demo post type menu name"
+msgid "%2$s"
+msgstr ""
+
+#: includes/posts/post-types.php:179
+msgctxt "taxonomy general name"
+msgid "%s Categories"
+msgstr ""
+
+#: includes/posts/post-types.php:205
+msgctxt "taxonomy general name"
+msgid "%s Tags"
+msgstr ""
+
+#: includes/posts/post-types.php:180
+msgctxt "taxonomy singular name"
+msgid "%s Category"
+msgstr ""
+
+#: includes/posts/post-types.php:206
+msgctxt "taxonomy singular name"
+msgid "%s Tag"
+msgstr ""
